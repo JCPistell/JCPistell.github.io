@@ -18,7 +18,7 @@
     display: flex;
     -webkit-box-pack: justify;
      justify-content: space-between;
-    padding: 1em 1em 1em;
+    padding: 0;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -38,7 +38,7 @@
 .site-title {
   display: -webkit-box;
   display: flex;
-  padding: 0.5rem 0;
+  padding: 0;
   align-self: stretch;
   -webkit-box-align: center;
         align-items: center;
