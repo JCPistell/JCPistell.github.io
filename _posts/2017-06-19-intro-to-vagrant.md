@@ -8,9 +8,9 @@ category: tutorial
 
 ## Intro to Vagrant
 
-If you've been attending our MSBA optional sessions you've definitely noticed that there is a challenge getting our dev tools to work consistantly across everyone's computer. Most noticeably, Windows users have had a tough time due to the fact that most developer tools we've covered aren't really designed to work well with Windows.
+If you've been attending our MSBA optional sessions you've definitely noticed that there is a challenge getting our dev tools to work consistently across everyone's computers. Most noticeably, Windows users have had a tough time due to the fact that most developer tools we've covered aren't really designed to work well with Windows.
 
-Our standard solution is to make use of VMs, or virtual machines. VMs are a vital tool in the developer world as it solves a significant problem... getting everyone's systems in a consistant state. Not only does this allow our Windows using friends to practice their bash/Linux skills but it also allows us to do some other neat things, like spin up database servers with the push of a button.
+Our standard solution is to make use of VMs, or virtual machines. VMs are a vital tool in the developer world as it solves a significant problem... getting everyone's systems in a consistent state. Not only does this allow our Windows using friends to practice their bash/Linux skills but it also allows us to do some other neat things, like spin up database servers with the push of a button.
 
 While there are many different VM/Container solutions, we're going to make use of [Vagrant](https://www.vagrantup.com/) as it is flexible, easy to use, and easy to set up.
 
@@ -99,10 +99,10 @@ vagrant destroy
 
 This will remove the VM and any files and directories that were on it.
 
-Note that the Vagrantfile remains, so you can easily create the exact same VM again, but Vagrant will need to reprovision the box, so the inital boot will take longer.
+Note that the Vagrantfile remains, so you can easily create the exact same VM again, but Vagrant will need to reprovision the box, so the initial boot will take longer.
 
 ## Enjoy
 
 Vagrant can be used to create as many sandbox environments as you want where you can safely play around without fear of damaging your native system. If you hopelessly ruin your VM, simply destroy it and reboot... this is a great way to learn the ins and outs of Linux in a consequence-free environment.
 
-There's a lot more to Vagrant than just spinning up simple sandboxes. I encourage you to read the [documentation](https://www.vagrantup.com/docs/index.html) for more information. Next time, we'll use Vagrant to easily spin up a self contatined mysql server that will let us mess around with databases without those pesky AWS fees.
+There's a lot more to Vagrant than just spinning up simple sandboxes. I encourage you to read the [documentation](https://www.vagrantup.com/docs/index.html) for more information. Next time, we'll use Vagrant to easily spin up a self contained mysql server that will let us mess around with databases without those pesky AWS fees.
